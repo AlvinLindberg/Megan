@@ -6,7 +6,7 @@
         {
             Random random = new Random();
             int number = random.Next(1, 101);
-            Console.Write("Gissa ett tal mellan 1 och 100: ");
+            Console.Write("Gissa ett tal mellan 1 och 101: ");
             int guess = Convert.ToInt32(Console.ReadLine());
             while (guess != number)
             {
